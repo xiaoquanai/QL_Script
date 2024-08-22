@@ -5,11 +5,6 @@
 
 import os
 import requests
-response = requests.get("#小程序://长虹美菱会员服务/VgBR6WSiyJxrs4G")
-response.encoding = 'utf-8'
-txt = response.text
-print(txt)
-
 
 accounts = os.getenv("chmlck", "").splitlines()
 print("☞☞☞ 长虹美菱每日签到 ☜☜☜\n")
